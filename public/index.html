@@ -31,6 +31,22 @@
     <!-- ==================Unicons====================== -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
+    <script>
+      !function(w, d, s, ...args){
+        var div = d.createElement('div');
+        div.id = 'aichatbot';
+        d.body.appendChild(div);
+        w.chatbotConfig = args;
+      
+        var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s);
+        j.defer = true;
+        j.type = 'module';
+        j.src = 'https://aichatbot.sendbird.com/index.js';
+        f.parentNode.insertBefore(j, f);
+      }(window, document, 'script', '9CE26CF6-3CFD-4114-8A58-9767598FAF6A', 'onboarding_bot');
+      </script>
+
     <title>Portfolio Website of Akash</title>
   </head>
   <body>
