@@ -3,7 +3,7 @@ import React from 'react';
 const Database = () => {
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Database and Other</h3>
+      <h3 className="skills__title">Other Techs</h3>
 
       <div className="skills__box">
         <div className="skills__group">
@@ -22,7 +22,7 @@ const Database = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">MySql</h3>
+              <h3 className="skills__name">GPT</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
